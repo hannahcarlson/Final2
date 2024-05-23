@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Page Title for Browser Tab</title>
+		<!--links-->
+		<link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Atma' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Averia Sans Libre' rel='stylesheet'>
+	
+</head>
+<body style="background-color: #BAC7CA;">
+
+	<h1>Contact Me</h1>
+	<br>
+	
+		<!-- Nav bar -->
+	<a href="index.html" class="button">Home</a>
+<a href="page2.html" class="button">Club Soccer</a>
+<a href="page3.html" class="button">Highschool Soccer</a>
+<a href="page4.html" class="button">Travel Trips</a>
+	<br>
+	<br>
+	
+	<!-- html form-->
+	<div style="background-color: #BAC7CA; text-align:center;color:#788C91;font-size:3vw;font-family: 'Averia Sans Libre';" >
+<form name="myForm" method="get" id="myForm">
+<label for="name"><h3>Enter your name:</h3></label>
+<input size="30vw 30vw" type="text" id="name" name="name"><br><br>
+
+<form name="myForm" method="get" id="myForm">
+<label for="email"><h3>Enter your email</h3></label>
+<input size="30vw 30vw" type="text" id="email" name="email"><br><br>
+
+<form name="myForm" method="get" id="myForm">
+<label for="number"><h3>Enter your phone number:</h3></label>
+<input size="30vw 30vw" type="text" id="number" name="number"><br><br>
+
+<label class="country" for="country"><b>Choose a country:</b></label><br>
+<select id="country" name="country">
+<option value="usa">USA</option>
+<option value="canada">Canada</option>
+<option value="other">Other...</option>
+</select><br><br>
+
+<input class="button2" type="submit" vlaue="Show Story">
+
+</form>
+
+<div id="formContents"></div>
+
+<script>
+    var form = document.getElementById("myForm");
+    
+    form.addEventListener("submit", function(event){
+        event.preventDefault();
+        //*Java script values
+        var name = document.getElementById("name").value;
+        var email = document.getElementById("email").value;
+        var number = document.getElementById("number").value;
+        var country = document.getElementById("country").value;  
+        
+        //*puts form contents on the page
+        var putStory = document.getElementById("formContents");
+        
+        putStory.innerHTML = "Verify it's you...<br><br> Name: " + name + "<br> Email: " + email + "<br> Phone number: " + 
+        number + "<br> Country: " + country + "<br><br>Thank you!";
+
+});
+</script>
+</div>
+</body>
+</html>

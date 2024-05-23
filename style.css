@@ -1,0 +1,92 @@
+h1 {
+        text-align:center;
+        color: #618094; 
+        font-size: 8vw;
+        font-family: 'Atma';
+    }
+    
+    .button {
+        background-color: #C5FCD7;
+        padding: 1vw 1vw;
+        margin:7vw; 
+        width:4vw;
+        color:#90A6B6;
+    }
+    
+    h3 {
+        color: #788C91;
+        font-size: 3vw;
+        font-family: 'Averia Sans Libre';
+        margin:2vw;
+    }
+    
+   img {
+        margin:3vw;   
+   }
+   
+   ol {
+    color:#C29999;
+    font-family: 'Averia Sans Libre';
+    font-size:3vw;
+    text-align: left;
+    margin:2vw;
+   }
+   
+   table, th, td {
+  border:1px solid black;
+    }
+    
+    table {
+        color:#C29999;
+    font-family: 'Averia Sans Libre';
+    font-size:3vw;
+    }
+    
+    
+    input[type=text] {
+  width: 40%;
+  padding: 12px 20px;
+  margin: -1vw 30vw;
+  box-sizing: border-box;
+  text-align:center;
+  border-style: double;
+  border-width: 12px;
+  border-color: #E3D7CA;
+}
+
+    #country {
+  width: 40%;
+  padding: 12px 20px;
+  margin: 1vw 30vw;
+  box-sizing: border-box;
+  text-align:center;
+  border-style: double;
+  border-width: 12px;
+  border-color: #E3D7CA;
+}
+
+    .button2 {
+        border-style: double;
+    border-width: 12px;
+    border-color: #E3D7CA;
+    font-family: 'Averia Sans Libre';
+        margin:2vw;
+        text-align:center;    
+        
+    }
+    
+    .main {
+        font-family: 'Agbalumo';
+         text-align:center;
+         font-size:10vw;
+        color: #618094; 
+        
+    }
+        
+ 
+
+    a:hover {
+      color: #618094;
+      background-color: transparent;
+      text-decoration: underline;
+}
